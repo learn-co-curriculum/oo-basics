@@ -15,24 +15,16 @@ a similar object oriented problem on your own.
 
 ## Tutorial
 
-Object oriented programming, or OOP, is an extremely useful programming paradigm in which
-we can organize our code according to how real-world objects might interact with one another.
-We can wrap properties/data and behavior up in classes, and then create instances,
-or individual "members", of those classes that can interact with one another.
+Object oriented programming, or OOP, is an extremely useful programming paradigm in which we can organize our code according to how real-world objects might interact with one another.
+We can wrap properties/data and behavior up in classes, and then create instances, or individual "members", of those classes that can interact with one another.
 
-In this tutorial, our goal is to create a simple `Book` class. We'll want it to have properties
-like a title, an author, a page count, etc. We'd also like the class to somehow be able to
-keep track of all of the genres of all of the Books we create. Finally, we'll give our
-books the total non-sensical ability to turn their own pages.
+In this tutorial, our goal is to create a simple `Book` class. We'll want it to have properties like a title, an author, a page count, etc. We'd also like the class to somehow be able to keep track of all of the genres of all of the Books we create. Finally, we'll give our books the total non-sensical ability to turn their own pages.
 
 ### Set Up
 
-The project directory structure is pretty much set up for us already. We have a `spec`
-folder that contains our tests, and we have a `book.rb` file in the root of the project
-that we'll actually be coding in.
+The project directory structure is pretty much set up for us already. We have a `spec`folder that contains our tests, and we have a `book.rb` file in the root of the project that we'll actually be coding in.
 
-Whenever the tutorial says to 'run the specs', you should type the following into your
-command line:
+Whenever the tutorial says to 'run the specs', you should type the following into your command line:
 
 ```bash
 learn spec/01_book_spec.rb
