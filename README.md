@@ -565,7 +565,12 @@ end
 
 Our `title` reader (or getter) is also super basic, so let's add an
 `attr_reader` for it. Remember, this will give us a getter method
-for free!
+for free!       
+
+
+QUESTION to think about:   If attr_accessor gives us both a setter and a getter, why don't we just use it for :title, same as we did for the other methods, instead of using attr_reader  for title? 
+
+
 
 ```ruby
 # book.rb
@@ -597,4 +602,6 @@ To run the specs, type `learn spec/02_shoe_spec.rb` on your command line.
 
 Happy coding!
 
-<p data-visibility='hidden'>View <a href='https://learn.co/lessons/oo-basics' title='Object Orientation Basics'>Object Orientation Basics</a> on Learn.co and start learning to code for free.</p>
+<a href='https://learn.co/lessons/oo-basics' data-visibility='hidden'>View this lesson on Learn.co</a>
+
+<p data-visibility='hidden'>View <a href='https://learn.co/lessons/oo-basics'>OO Basics</a> on Learn.co and start learning to code for free.</p>
